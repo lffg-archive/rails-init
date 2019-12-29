@@ -1,24 +1,11 @@
-# README
+# Application Starter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+With Rubocop.
 
-Things you may want to cover:
+Search for `AppName`, `APP_NAME` and `app_name` and change it for your application needs.
 
-* Ruby version
+---
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Ruby Doc](https://ruby-doc.org/);
+- [Rails Guides](https://guides.rubyonrails.org);
+- [Rails API](https://api.rubyonrails.org/).
