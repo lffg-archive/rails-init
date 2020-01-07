@@ -111,3 +111,20 @@ Layout/LineLength:
 
 Rails:
   Enabled: true
+
+# RSpec
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/DescribeClass:
+  Enabled: false
+
+RSpec/ExpectActual:
+  Enabled: false
+
+RSpec/MessageSpies:
+  Enabled: false
