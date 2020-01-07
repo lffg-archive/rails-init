@@ -12,7 +12,8 @@
     "cop:fix": "yarn cop:raw --safe-auto-correct",
     "cop": "yarn cop:raw --parallel .",
     "lint": "yarn eslint && yarn cop",
-    "fix": "yarn prettier && yarn eslint:fix && yarn cop:fix"
+    "fix": "yarn prettier && yarn eslint:fix && yarn cop:fix",
+    "rb-fix": "yarn prettier:raw '**/*.rb' && yarn cop:fix"
   },
   "dependencies": {
     "@babel/preset-react": "^7.7.4",
@@ -27,6 +28,7 @@
     "turbolinks": "^5.2.0"
   },
   "devDependencies": {
+    "@prettier/plugin-ruby": "^0.17.0",
     "eslint": "^6.8.0",
     "eslint-config-lffg": "^10.0.1",
     "eslint-config-lffg-react": "^2.0.0",
