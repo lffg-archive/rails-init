@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "format:raw": "prettier --write",
-    "format": "yarn format:raw '**/*.{js,jsx,ts,tsx,json,vue,css,scss,less,graphql,gql,md,mdx,yml,yaml}'",
-    "lint": "yarn lint:raw .",
-    "lint:fix": "yarn lint:raw --fix .",
-    "lint:raw": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings=0",
-    "fix-all": "yarn format && yarn lint:fix"
+    "prettier:raw": "prettier --write",
+    "prettier": "yarn prettier:raw '**/*.{js,jsx,ts,tsx,json,vue,css,scss,less,graphql,gql,md,mdx,yml,yaml}'",
+    "eslint:raw": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings=0",
+    "eslint:fix": "yarn eslint:raw --fix .",
+    "eslint": "yarn eslint:raw .",
+    "cop:raw": "bundle exec rubocop --format quiet",
+    "cop:fix": "yarn cop:raw --safe-auto-correct",
+    "cop": "yarn cop:raw --parallel .",
+    "lint": "yarn eslint && yarn cop",
+    "fix": "yarn prettier && yarn eslint:fix && yarn cop:fix"
   },
   "dependencies": {
     "@babel/preset-react": "^7.7.4",
