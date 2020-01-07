@@ -1,24 +1,11 @@
-# README
+# Rails Init
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+With RSpec and Rubocop pre-configured.
 
-Things you may want to cover:
+Search for `RailsApp`, `RAILS_APP` and `rails_app` and change them for your application needs.
 
-* Ruby version
+---
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Ruby Doc](https://ruby-doc.org/);
+- [Rails Guides](https://guides.rubyonrails.org);
+- [Rails API](https://api.rubyonrails.org/).
