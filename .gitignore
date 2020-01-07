@@ -31,3 +31,7 @@ yarn-debug.log*
 .yarn-integrity
 
 ___test.rb
+___script.rb
+
+__ignore__
+__old__
