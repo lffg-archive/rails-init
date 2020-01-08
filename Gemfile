@@ -32,7 +32,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: %i[mri mingw x64_mingw]
   # RSpec for Rails-3+
-  gem 'rspec-rails'
+  gem "rspec-rails"
 end
 
 group :development do
@@ -40,7 +40,7 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   # Use Rails Console with Pry.
-  gem 'pry-rails'
+  gem "pry-rails"
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "web-console", ">= 3.3.0"

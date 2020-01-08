@@ -8,7 +8,7 @@
     "eslint:raw": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings=0",
     "eslint:fix": "yarn eslint:raw --fix .",
     "eslint": "yarn eslint:raw .",
-    "cop:raw": "bundle exec rubocop --format quiet",
+    "cop:raw": "bundle exec rubocop",
     "cop:fix": "yarn cop:raw --safe-auto-correct",
     "cop": "yarn cop:raw --parallel .",
     "lint": "yarn eslint && yarn cop",
