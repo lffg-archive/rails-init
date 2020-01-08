@@ -33,6 +33,8 @@ group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
   # RSpec for Rails-3+
   gem "rspec-rails"
+  # Capybara
+  gem "capybara"
 end
 
 group :development do
