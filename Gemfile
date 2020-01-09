@@ -54,6 +54,7 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0.0"
   # Rubocop and some extensions for Ruby linting.
   gem "rubocop"
+  gem "rubocop-daemon"
   gem "rubocop-performance"
   gem "rubocop-rails"
   gem "rubocop-rspec"
