@@ -37,6 +37,8 @@ group :development, :test do
   gem "capybara"
   # Factory Bot
   gem "factory_bot_rails"
+  # Awesome Print
+  gem "awesome_print"
 end
 
 group :development do
