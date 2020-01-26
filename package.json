@@ -16,7 +16,6 @@
     "rb-fix": "yarn prettier:raw '**/*.rb' && yarn cop:fix"
   },
   "dependencies": {
-    "@babel/preset-react": "^7.7.4",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
@@ -28,11 +27,14 @@
     "turbolinks": "^5.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
     "@prettier/plugin-ruby": "^0.17.0",
     "eslint": "^6.8.0",
     "eslint-config-lffg": "^10.0.1",
     "eslint-config-lffg-react": "^2.0.0",
     "prettier": "^1.19.1",
+    "webpack": "^4.41.5",
     "webpack-dev-server": "^3.10.1"
   },
   "eslintConfig": {
